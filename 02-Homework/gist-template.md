@@ -22,8 +22,11 @@ Each part of this regex has an unique responsibility to make sure that an user e
 
 ## Regex Components
 
-Regex are made up of several components. The following regex includes the following:
-/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/ 
+Regex are made up of several components. A regex is considered a literal, so the pattern must be wrapped in slash characters (/), as below.
+/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
+
+The above regex includes the following:
+ 
 
 Anchors ^ $
 Captures and Groups ([a-z0-9_\.-]+)
@@ -35,6 +38,8 @@ These components will be described with greated detail below.
 
 
 ### Anchors
+
+
 
 ### Quantifiers
 
