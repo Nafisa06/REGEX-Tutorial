@@ -117,6 +117,8 @@ Flags are placed at the end of a regex, after the second slash, and they define 
 
 ### Character Escapes
 
+The backslash character ( \ ) is the escaping character. It can be used to denote an escaped character, a string, literal, or one of the set of supported special characters. 
+
 ## Author
 
 A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
