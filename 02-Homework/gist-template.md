@@ -22,6 +22,18 @@ Each part of this regex has an unique responsibility to make sure that an user e
 
 ## Regex Components
 
+Regex are made up of several components. The following regex includes the following:
+/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/ 
+
+Anchors ^ $
+Captures and Groups ([a-z0-9_\.-]+)
+Quantifiers + {}
+Bracket Expressions [ ]
+Character Classes [a-z\d] etc
+
+These components will be described with greated detail below.
+
+
 ### Anchors
 
 ### Quantifiers
