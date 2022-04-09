@@ -113,6 +113,8 @@ There are no OR operators in the above example.
 
 ### Flags
 
+Flags are placed at the end of a regex, after the second slash, and they define additional functionality or limits for the regex. There are six optional flags that can be used, either separately or together and in any order. There are no flags in this regex example.
+
 ### Character Escapes
 
 ## Author
