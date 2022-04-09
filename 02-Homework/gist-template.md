@@ -4,7 +4,10 @@ Regex, or regular expressions are useful in extracting information from any text
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+In this tutorial, I will be describing the following expression: `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`. This regex can be used to verify that a user input is a valid email address. 
+
+Each part of this regex has an unique responsibility to make sure that an user enters an email address that begins with an unspecified number of characters preceding the @ symbol, followed by a domain.
+
 
 ## Table of Contents
 
