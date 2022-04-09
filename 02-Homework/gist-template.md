@@ -121,4 +121,4 @@ The backslash character ( \ ) is the escaping character. It can be used to denot
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+My name is Nafisa Ali and I am an aspiring Junior Developer. My Github Id is Nafisa06.
