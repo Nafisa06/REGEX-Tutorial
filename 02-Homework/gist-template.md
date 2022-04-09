@@ -48,6 +48,16 @@ The $ anchor signifies a string that ends with the characters that precede it. S
 
 ### Quantifiers
 
+Quantifiers set the limits of the string that the regex matches, or an individual section of the string. They frequently include the minimum and maximum number of characters that the regex is looking for.
+
+The + quantifier matches the preceding element one or more times. It is equivalent to {1,}. + is a greedy quantifier whose lazy equivalent is +?.
+
+In this regex, it corresponds to [a-z0-9_\.-] and [\da-z\.-].    
+
+The {n} quantifier matches the preceding element exactly n times, where n is any integer. {n} is a greedy quantifier whose lazy equivalent is {n}?.
+
+[a-z\.]{2,6} matches 2 to 6 characters that match the bracket expressions.
+
 ### Grouping Constructs
 
 ### Bracket Expressions
