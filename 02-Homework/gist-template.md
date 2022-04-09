@@ -93,8 +93,15 @@ a-z matches any lowercase letter.
 Everything in a bracket is grouped and read together for validation.  
 
 
-
 ### Character Classes
+
+A character class in a regex defines a set of characters, any one of which can occur in an input string to fulfill a match. 
+
+\d - Matches a single character that is a digit.  
+
+
+\. - Matches a single period.
+
 
 ### The OR Operator
 
