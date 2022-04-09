@@ -67,9 +67,17 @@ The primary way to group a section of a regex is by using parentheses (()). Each
 
 ### Bracket Expressions
 
+
+
 ### Character Classes
 
 ### The OR Operator
+
+The OR operator in regex works by searching for either one value or another. 
+
+For example: [K|C]+atherine will match to either Katherine or Catherine.
+
+There are no OR operators in the above example.
 
 ### Flags
 
