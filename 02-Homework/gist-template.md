@@ -67,6 +67,31 @@ The primary way to group a section of a regex is by using parentheses (()). Each
 
 ### Bracket Expressions
 
+A bracket expression is either a matching list expression or a non-matching list expression. It consists of one or more expressions: ordinary characters, collating elements, collating symbols, equivalence classes, character classes, or range expressions.
+
+/^[a-zA-Z0-9._\.-]+  means that the email address must begin with alpha-numeric characters. "a-zA-Z" means both lowercase and uppercase characters are allowed. "0-9" matches any single-digit integer. It may have periods,underscores and hyphens.
+
+
+@ means that there must be a ‘@’ symbol after initial characters.
+
+In [\da-z\.-]:
+
+
+\d matches a single character that is a integer/digit.
+
+
+a-z matches any lowercase letter.
+
+\.- matches the symbols \, ., or -.  
+
+\.: After the second group of characters there must be a period (‘.’). This is to separate domain and subdomain names.
+
+[a-z\.]{2,6}$/ means that the email address must end with two to six alphabets. Having a-z means that only lowercase letters are allowed. Whereas \. matches a single period.
+
+{2,6} indicates the minimum and maximum number of characters. This will allow domain names with 2, 3, 4, 5 and 6 characters.
+
+Everything in a bracket is grouped and read together for validation.  
+
 
 
 ### Character Classes
