@@ -39,6 +39,11 @@ These components will be described with greated detail below.
 
 ### Anchors
 
+The characters ^ and $ are both considered to be anchors.
+
+The ^ anchor signifies a string that begins with the characters that follow it. This could be in one of two formats; exact string matches (e.g. ^This, where the strings "This" or "This cat" match and is case sensitive) or a range of possible matches displayed using bracket expression, as in the regex described in this tutorial: ([a-z0-9_\.-]+)
+
+The $ anchor signifies a string that ends with the characters that precede it. Similar to the ^ character, it can be preceded by an exact string or a range of possible matches. In this regex, it matches string ending with ([a-z\.]{2,6}). The anchors ^ and $ force the regex to find its match at the start and end of the subject text, respectively. Placing the whole regex between these characters effectively requires the regex to match the entire subject. This is important when validating user input as without the anchors, all the previous regex will match because they find the strings in the middle of the given text.
 
 
 ### Quantifiers
