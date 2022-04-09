@@ -60,6 +60,11 @@ The {n} quantifier matches the preceding element exactly n times, where n is any
 
 ### Grouping Constructs
 
+The primary way to group a section of a regex is by using parentheses (()). Each section within parentheses is known as a subexpression. A part of a pattern can be enclosed in parentheses (...). This is called a “capturing group”. This effects the regex in two ways.
+
+- It allows finding a part of the match as a separate item in the result array.
+- A quantifier after the parentheses applies to the parentheses as a whole.
+
 ### Bracket Expressions
 
 ### Character Classes
