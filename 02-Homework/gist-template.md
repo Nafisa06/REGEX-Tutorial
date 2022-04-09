@@ -1,6 +1,6 @@
-# Title (replace with your title)
+# Regex Tutorial- Matching an email address
 
-Introductory paragraph (replace this with your text)
+Regex, or regular expressions are useful in extracting information from any text by searching for one or more matches of a specific search pattern. They are also frequently used to validate input. In this tutorial, I will explain a regex functions by breaking down each part of the expression and describing what it does.
 
 ## Summary
 
